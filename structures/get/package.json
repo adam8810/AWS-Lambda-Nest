@@ -1,0 +1,20 @@
+{
+  "name": "Nest-Structures-Get",
+  "version": "1.0.0",
+  "description": "AWS Lambda Function to get Nest structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list test.js",
+    "test-watch": "mocha --reporter list --watch test.js"
+  },
+  "author": "Adam Booth",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.4.0",
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

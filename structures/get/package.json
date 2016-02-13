@@ -4,8 +4,7 @@
   "description": "AWS Lambda Function to get Nest structures",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter list test.js",
-    "test-watch": "mocha --reporter list --watch test.js"
+    "test": "node handler.js"
   },
   "author": "Adam Booth",
   "license": "ISC",
@@ -13,8 +12,5 @@
     "firebase": "^2.4.0",
     "ramda": "^0.19.1"
   },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5"
-  }
+  "devDependencies": {}
 }

@@ -1,0 +1,15 @@
+{
+  "name": "Nest-Away-Put",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to toggle away state",
+  "main": "index.js",
+  "scripts": {
+    "test": "node handler.js"
+  },
+  "author": "Adam Booth",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "2.4.x"
+  },
+  "devDependencies": {}
+}

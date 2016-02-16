@@ -9,7 +9,7 @@ function handler (event, context) {
     if (err) { context.fail (err); }
 
     fb.child ('/structures').on ('value', function (snapshot) {
-      var structures = Object.keys (snapshot.val ());
+      var structures = snapshot.val ();
       return context.succeed (structures);
     });
   });

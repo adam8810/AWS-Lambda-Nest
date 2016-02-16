@@ -1,0 +1,16 @@
+{
+  "name": "NestThermostatGet",
+  "version": "1.0.0",
+  "description": "AWS Lambda Function to get a single Nest thermostat",
+  "main": "index.js",
+  "scripts": {
+    "test": "node handler.js"
+  },
+  "author": "Adam Booth",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.4.0",
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {}
+}
